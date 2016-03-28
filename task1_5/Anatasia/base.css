@@ -1,0 +1,214 @@
+*{
+	font-family:"微软雅黑";
+}
+
+.body{
+	background:#CCC;
+	overflow:hidden;
+}
+
+img{
+	width:60%;
+	}
+
+.left{
+	margin-right:460px;
+	width:cacl(100%-400px);
+}
+
+.sidebar{
+	border-right:groove;
+	border-bottom:groove;
+	background:#FFF;
+	margin:20px;
+	padding:15px;
+	width:360px;
+	top:90px;
+  	right:20px;
+  	position: absolute;
+	}
+	
+.header{
+	background:#333;
+	width:100%;
+	overflow:hidden;
+	height:80px;
+}
+
+.logo{
+	width:20%;
+	float:left;
+	padding:20px;
+	clear:both;
+}
+
+.logo img{
+	text-align:center;
+	}
+
+.links{
+	float:right;
+	}
+	
+#iteam{
+	width:80px;
+	float:left;
+	text-align:center;
+	margin:20px;
+	color:#000;
+}
+
+li a{
+	color:#FFF;
+	}
+
+.linked{
+	color:#999;
+	}
+
+li a{
+	text-decoration:none;
+}
+
+/*文章*/
+.main,.other,.images,.last{
+	border-right:groove;
+	border-bottom:groove;
+	background:#FFF;
+	margin:20px;
+	padding:15px;
+	height:auto;
+	}
+
+.images{
+	overflow:hidden;
+	}
+h3{
+	color:#333;
+	}	
+	
+p{
+	text-indent:2em;
+	line-height:2em;
+	
+	}
+.author{
+	text-indent:0em;
+	color:#666;
+	font-size:12px;
+	}
+
+p a{
+	color:#00C;
+	}
+	
+.iteamlist{
+	list-style:none;
+	}
+	
+/*图片*/
+.oba{
+	width:220px;
+	border:1px solid #CCC;
+	padding:10px;
+	text-align:center;
+	margin:20px;
+	float:left;
+	}
+.song{
+	margin-top:10px;
+	}
+
+.images img{
+	width:200px;
+	}
+	
+/*表格*/
+table{
+	width:100%;
+	cellpadding:0px;
+	cellspace:0px;
+	}
+	
+.table_head{
+	background:#333;
+	color:#FFF;
+	font-weight:bold;
+	padding:5px;
+	}
+.total{
+	background:#999;
+	font-weight:bold;
+	padding:5px;
+	}
+	
+/*侧栏*/
+.side{
+	border-left:3px groove #CCC;
+	padding:5px;
+	}
+.eg{
+	padding-left:20%;
+	padding-top:20px;
+	}
+.eg1{
+	padding-left:20%;
+	padding-top:10px;
+	clear:both;
+	}
+label{
+	width:20%;
+	text-align:right;
+	font-size:13px;
+	padding-right:10px;
+	float:left;
+	}
+.choice{
+	float:left;
+	width:1em;
+	padding:0px;
+	text-align:left;
+	}
+.choice1{
+	float:left;
+	width:3em;
+	padding:0px;
+	text-align:left;
+	}
+.tips{
+	color:#CCC;
+	margin-left:36%;
+	padding-left:10px;
+	font-size:13px;
+	padding-top:10px;
+	}
+	
+textarea{
+	width:60%;
+	height:100px;
+	margin-bottom:10px;
+	}
+	
+
+.footer{
+	background:#000;
+	color:#FFF;
+	font-weight:bold;
+	font-size:13px;
+	text-align:center;
+	margin-top:10px;
+	padding-top:10px;
+	padding-bottom:20px;
+	clear:both;
+	}
+
+.submit{
+	background:#06F;
+	width:98%;
+	margin:0 auto;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-size:15px;
+	padding:10px;
+	}
